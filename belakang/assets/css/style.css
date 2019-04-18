@@ -1,0 +1,15 @@
+.text-quote{
+  font-size: 10px !important;
+}
+
+.card-profile-image-sm img{
+  max-width: 120px !important;
+}
+
+.heading-sm{
+  font-size: 0.5rem !important;
+}
+
+.description-sm{
+  font-size: 0.6rem !important;
+}
