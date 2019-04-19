@@ -12659,7 +12659,8 @@ main
 
     z-index: 2; 
 
-    color: #fb6340;
+    /* color: #fb6340; */
+    color: rgb(195, 140, 246);
 }
 .section-nucleo-icons .icons-container:not(.on-screen) i
 {
@@ -12683,7 +12684,8 @@ main
     top: 50%;
     left: 50%;
 
-    color: #fb6340;
+    /* color: #fb6340; */
+    color: rgb(195, 140, 246);
 }
 .section-nucleo-icons .icons-container.on-screen i:nth-child(2)
 {
@@ -15256,6 +15258,7 @@ a.btn-icon-only
 .footer.has-cards:before
 {
     position: absolute;
+    z-index: -1;
     top: 600px;
     right: 0;
     left: 0;
@@ -15265,7 +15268,8 @@ a.btn-icon-only
     content: '';
     transform: skew(0, -8deg); 
 
-    background: #f4f5f7;
+    /* background: #f4f5f7; */
+    background: linear-gradient(87deg, #8c59bbff 0, #5f3a81ff 100%) !important;
 }
 .footer.has-cards .container
 {
